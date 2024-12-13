@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'OCRAStd';/*для английского языка*/
+    src: url(OCRAStd2.woff2) format("woff2");
+    src: url(OCRAStd.woff) format("woff");
+
+    font-family:'Pobeda';/*для русского языка*/
+    src: url(Pobeda.woff) format("woff");
+}
+body {    
+    background-color: #29AB87;
+    font-family: 'Pobeda';
+}
+.nav_bar {
+    font-size: 50px;
+}
+.container{
+   margin-top: 5px;
+
+}
+.row{
+    
+}
+.col-6{
+
+}
+
+.col-4 {
+    font-family: 'OCRAStd', monospace;
+
+}
+.photo {
+    background: url(hello.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+}
+.col-3.nav_logo {
+    background: url(logo.png) no-repeat center center;
+    background-size: 100%;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+.col-9 {
+
+}
+.nav_text {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
